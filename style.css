@@ -1,0 +1,119 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    margin-top:150px;
+    border-radius: 30px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+}
+input[type="submit"]{
+    font-size: 16px;
+    margin-top: 30px;
+    color:white;
+    background: green;
+    border:1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+ }
+
+ input[type="reset"]{
+    font-size: 16px;
+    color:white;
+    background: grey;
+    border:1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+ }
+
+ input[type="submit"]:hover
+ {
+     background: red;
+ }
+form{
+    margin-top: 50px;
+}
+
+input{
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+    border: none;
+    outline: none;
+    font-size: small;
+}
+
+.signup{
+    max-width: cover;
+    margin: auto;
+    padding: 20px;
+    background: black;
+    margin-top:200px;
+    
+    
+}
+
+p{
+    color: #fff;
+    text-align: center;
+}
+
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.closebtn{
+    position: absolute;
+    top:20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #fff;
+}
+.closebtn:hover{
+    color: #cccccc;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.join{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: large;
+    cursor: pointer;
+}
+
+.join:hover{
+    background: black;
+    color: #fff;
+}
