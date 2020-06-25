@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body></body>
+   <div class="wrapper">
+       <div class="slide-container">
+           <h2>Order Summary</h2>
+           <p id="odn">Order Number = #</p>
+           <h4>Total Cost 350$</h4>
+       </div>
+       <div class="check-out">
+           <div class="front">
+                <h2>Credit Card Details</h2>
+                <form>
+                    <input type="text" placeholder="Name on Card" required>
+                    <input type="number" placeholder="0000 0000 0000 0000" required> 
+                    <input type="text" placeholder="Validity" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    <span class="proceed" id="flp" onclick="flip()" title="flipbtn">	&#8594</span>
+                </form>
+            </div>
+            <div class="back">
+                <form>
+                    <div class="bar"></div>
+                    <input type="password" placeholder="CVV" required>
+                </form>
+            </div>
+       </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
