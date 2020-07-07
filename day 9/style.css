@@ -50,7 +50,6 @@ body{
     margin: 10px 9px;
     border: none;
     box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
-    /*background:linear-gradient(-45deg,#a2b1c6,#fff);*/
 }
 .buttons button:active{
     background: #E1E6EC;
@@ -78,8 +77,8 @@ body{
     -webkit-appearance: none;
     background-color: #A2B1C6;
     box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 5px  #fff  ;
-    width: 15px; /* Set a specific slider handle width */
-    height: 15px; /* Slider handle height */
+    width: 15px; 
+    height: 15px; 
     border-radius: 90px;
 }
 .level::-moz-range-thumb{
