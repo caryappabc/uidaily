@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="settings" id="s">
+        <div class="tweek">
+            <h3>SETTINGS</h3>
+            <form action="" class="setup">
+                <label for = "font"> Font </label>
+                <select name="Fonts" id="font">
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="sans-serif">sans-serif</option>
+                </select>
+                <label for="font_size">Font Size</label>
+                <input type="number" id="font_size"> 
+                <input type="submit" value="Save" >
+                <input type="button" value="Close" id="close_btn" onclick="change();">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="profile">
+            <img src="cari.jpg" alt="Profile Pic">
+            <div class="contact">
+                <label id="reach"> Reach Me On </label>
+                <div class="icons">
+                    <a href="https://www.facebook.com/caryappabc/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/CariCaryappa" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/caryappa/" class="fa fa-instagram"></a>
+                    <a href="https://github.com/caryappabc" class="fa fa-git-square"></a>
+                    <a href="https://www.linkedin.com/in/caryappa-b-c-8b6857153/" class="fa fa-linkedin"></a>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="details">
+                <span class="edit" onclick="set();">&#xf040</span>
+                <label>Personal Information</label>
+                <P id="Name">Caryappa B C</P>
+                <p id="City">Banglore</p>
+                <p id="DOB">13th July</p>
+                <p id="occupation">Jr Web Editor</p>
+                <p>About Me</p>
+                <p id="about me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas eligendi et nesciunt? Aspernatur delectus, sit provident itaque est libero assumenda repudiandae! Veritatis accusantium repudiandae, ratione ad nulla harum quia aut?</p>
+                </div>
+        </div>           
+    </div>
+        
+</body>
+</html>
